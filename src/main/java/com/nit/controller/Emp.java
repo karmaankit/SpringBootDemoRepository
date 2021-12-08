@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nit.model.Employee;
 import com.nit.service.IEmployeeService;
 
-@Controller
-@RequestMapping("/rest/emp")
+@RestcController
 public class Emp {
 
 	@Autowired

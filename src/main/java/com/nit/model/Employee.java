@@ -9,7 +9,6 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
-@XmlRootElement
 @Table(name="emp__tab")
 public class Employee {
 
